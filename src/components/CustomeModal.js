@@ -25,3 +25,5 @@ export default class CustomeModal extends Component {
 }
 
 
+
+

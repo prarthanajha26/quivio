@@ -1,3 +1,5 @@
+
+
 const Icons = {
     splash_img: require('./Icons/QuivoLogo.png'),
     chart_line_up: require('./Icons/chart-line-up.png'),
@@ -13,7 +15,9 @@ const Icons = {
     tick:require('./Icons/check.png'),
     message:require('./Icons/message.png'),
     notify:require('./Icons/Notification.png'),
-    announcement:require('./Icons/announcement.png')
+    announcement:require('./Icons/announcement.png'),
+    drop:require('./Icons/dropDown.png'),
+    forward:require('./Icons/forward.png')
     
   };
   const Images = {
@@ -37,8 +41,13 @@ const Icons = {
     ModalOtp:require('./Images/ModalOtp.png'),
     ModalCall:require('./Images/ModalCall.png'),
     ModalSecure:require('./Images/ModalSecure.png'),
-    verified:require('./Images/verified.png')
-
+    verified:require('./Images/verified.png'),
+    arrow:require('./Images/arrow.png'),
+    profile:require('./Images/profile.png'),
+    calendar:require('./Images/calender.png'),
+    fromGallery:require('./Images/fromGallery.png'),
+    fromCamera:require('./Images/fromCamera.png'),
+    selectAvatar:require('./Images/selectAvtar.png')
   };
   
   export {Icons,Images};

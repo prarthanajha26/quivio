@@ -12,12 +12,14 @@ import FA from '../screens/2FA/FA';
 import OTP from '../screens/OTP/OTP';
 import { ScreenNames } from './screenName';
 
+
 const Stack = createNativeStackNavigator();
 
 export default class RootNavigator extends Component {
   render() {
     return (
-      <NavigationContainer>
+  
+    <NavigationContainer>
         <Stack.Navigator initialRouteName='Splash'>
           <Stack.Screen options={{ headerShown: false }} name={ScreenNames.Splash} component={SplashScreen} /> 
           <Stack.Screen options={{ headerShown: false }} name={ScreenNames.Tutorial} component={TutorialScreen} />
@@ -32,3 +34,10 @@ export default class RootNavigator extends Component {
     );
   }
 }
+
+
+
+
+
+
+

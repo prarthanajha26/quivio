@@ -25,7 +25,7 @@ class CustomModal extends Component {
             <Text style={styles.modalText}>{message}</Text>
 
 
-            <ButtonComponent background={'#2a7bbb'} buttonName={this.props.buttonText} color={'white'} onclick={onClose} />
+            <ButtonComponent background={'#2a7bbb'} buttonName={buttonText} color={'white'} onclick={onClose} />
            
           </View>
         </View>

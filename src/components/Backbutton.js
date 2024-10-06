@@ -12,8 +12,8 @@ prevPageFun =()=>{
 
   render() {
     return (
-    <TouchableOpacity style={styles.backarrow} onPress={this.prevPageFun}>
-        <Image style={styles.backarrowImage} source={Images.backArrow}/>
+    <TouchableOpacity style={[styles.backarrow,{backgroundColor:this.props.background}]} onPress={this.prevPageFun}>
+        <Image style={styles.backarrowImage} source={this.props.source?this.props.source: Images.backArrow}/>
     </TouchableOpacity>
     )
   }
@@ -21,17 +21,17 @@ prevPageFun =()=>{
 
 const styles = StyleSheet.create({
     backarrow:{
-       marginBottom:30,
+      //  marginBottom:30,
         height:40,
         width:40,
-        borderRadius:5,
+        borderRadius:10,
         justifyContent:'center',
         alignItems:'center',
         backgroundColor:'white'
     },
     backarrowImage:{
-        width:25,
-        height:25,
+        width:6,
+        height:12,
        
     }
 })

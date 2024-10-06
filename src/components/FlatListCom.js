@@ -8,7 +8,7 @@ export default class FlatListCom extends Component {
   render() {
     return (
         <FlatList 
-        data={this.props.data}
+        data={this.props?.data}
         renderItem={this.props.renderItem}
         horizontal={this.props.horizontal}
         showsHorizontalScrollIndicator={false}

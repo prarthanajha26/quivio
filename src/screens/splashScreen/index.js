@@ -22,10 +22,10 @@ export default class Splash extends React.Component {
             if(!isVisited)
             this.props.navigation.navigate(ScreenNames.Tutorial);
         else if(isLogin=='true'){
-        this.props.navigation.navigate(ScreenNames.Home)
+        this.props.navigation.navigate(ScreenNames.menu)
         this.props.navigation.reset({
             index: 0,
-            routes: [{ name: ScreenNames.Home }]
+            routes: [{ name: ScreenNames.menu }]
        })
         }
     else
